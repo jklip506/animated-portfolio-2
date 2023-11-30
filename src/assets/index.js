@@ -9,7 +9,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import angular from "./tech/angular.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,6 +21,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.svg";
+import aws from "./tech/aws.png";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
 
 import ni from "./company/ni.png";
 import navy from "./company/navy.png";
@@ -39,7 +43,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  angular,
   figma,
   git,
   html,
@@ -57,4 +61,8 @@ export {
   jobit,
   tripguide,
   logoColor,
+  nextjs,
+  aws,
+  java,
+  python,
 };

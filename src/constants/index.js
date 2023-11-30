@@ -14,13 +14,17 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    angular,
     navy,
     ni,
     carrent,
     jobit,
     tripguide,
     threejs,
+    nextjs,
+    aws,
+    java,
+    python,
   } from "../assets";
   
   export const navLinks = [
@@ -79,10 +83,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -103,26 +103,38 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Angular",
+      icon: angular,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
+      name: "AWS",
+      icon: aws,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
   ];
   
   const experiences = [
     {
-      title: "Intelligence Analyst",
-      company_name: "United States Navy",
-      icon: navy,
-      iconBg: "#383E56",
-      date: "July 2014 - December 2019",
+      title: "Return Software Engineering Intern",
+      company_name: "National Instruments (NI)",
+      icon: ni,
+      iconBg: "#E6DEDD",
+      date: "Jun 2023 - August 2023",
       points: [
-        "Produced critical national security intelligence for US Government decision-makers.",
-        "Applied advanced tools to address complex challenges, emphasizing big data analytics.",
-        "Drafted well-written documents detailing foreign intelligence and offered insights into the significance of the correspondence.",
+        "Developed a scalable, user-friendly feature, which enhanced engineers  work order customization by adding custom properties to new and existing work orders – resulting in increased workflow and reduced errors.",
+        "Designed and integrated contributions into NI's core product suite, positioning the feature for future release.",
+        "Demonstrated versatility and adaptability by playing a pivotal role in a global collaborative project that required acquiring new skill sets such as Angular and Git.",
       ],
     },
     {
@@ -138,15 +150,15 @@ import {
       ],
     },
     {
-      title: "Return Software Engineering Intern",
-      company_name: "National Instruments (NI)",
-      icon: ni,
-      iconBg: "#E6DEDD",
-      date: "Jun 2023 - August 2023",
+      title: "Intelligence Analyst",
+      company_name: "United States Navy",
+      icon: navy,
+      iconBg: "#383E56",
+      date: "July 2014 - December 2019",
       points: [
-        "Developed a scalable, user-friendly feature, which enhanced engineers  work order customization by adding custom properties to new and existing work orders – resulting in increased workflow and reduced errors.",
-        "Designed and integrated contributions into NI's core product suite, positioning the feature for future release.",
-        "Demonstrated versatility and adaptability by playing a pivotal role in a global collaborative project that required acquiring new skill sets such as Angular and Git.",
+        "Produced critical national security intelligence for US Government decision-makers.",
+        "Applied advanced tools to address complex challenges, emphasizing big data analytics.",
+        "Drafted well-written documents detailing foreign intelligence and offered insights into the significance of the correspondence.",
       ],
     },
   ];
