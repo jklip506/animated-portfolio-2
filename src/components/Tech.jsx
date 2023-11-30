@@ -17,7 +17,7 @@ const Tech = () => {
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
         {technologies.map((technology) => (
           <motion.div
-            className="w-28 h-28 flex flex-col justify-center items-center"
+            className="w-28 h-28 flex flex-col justify-center items-center cursor-pointer"
             key={technology.name}
             whileHover={{ scale: 1.1 }}
             variants={fadeIn()}
