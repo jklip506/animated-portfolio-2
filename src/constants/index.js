@@ -8,23 +8,21 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     angular,
     navy,
     ni,
     carrent,
-    jobit,
-    tripguide,
     threejs,
     nextjs,
     aws,
     java,
     python,
+    bitstore,
+    imdb,
   } from "../assets";
   
   export const navLinks = [
@@ -192,58 +190,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Bitstore",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An e-commerce app enabling users to explore, compare, and buy electronic devices from diverse suppliers, simplifying the digital shopping experience.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "sanity",
           color: "green-text-gradient",
         },
         {
@@ -251,8 +207,30 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: bitstore,
+      source_code_link: "https://github.com/jklip506/ecommerce-NextJs-Sanity",
+      demo_link: "https://ecommerce-next-js-sanity.vercel.app/",
+    },
+    {
+      name: "Simple IMDb Clone",
+      description:
+        "A simple IMDb clone that allows users to browse movies, and get facts and details about them.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: imdb,
+      source_code_link: "https://github.com/jklip506/nextjs13-imdb-clone",
     },
   ];
   

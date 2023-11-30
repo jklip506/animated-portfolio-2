@@ -30,8 +30,8 @@ import ni from "./company/ni.png";
 import navy from "./company/navy.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import bitstore from "./bitstore.png";
+import imdb from "./imdb-clone.png";
 
 export {
   logo,
@@ -58,11 +58,11 @@ export {
   ni,
   navy,
   carrent,
-  jobit,
-  tripguide,
   logoColor,
   nextjs,
   aws,
   java,
   python,
+  bitstore,
+  imdb,
 };
