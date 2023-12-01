@@ -109,10 +109,6 @@ import {
       icon: nextjs,
     },
     {
-      name: "AWS",
-      icon: aws,
-    },
-    {
       name: "Java",
       icon: java,
     },
