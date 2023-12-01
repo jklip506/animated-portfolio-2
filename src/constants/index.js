@@ -217,6 +217,7 @@ import {
       ],
       image: imdb,
       source_code_link: "https://github.com/jklip506/nextjs13-imdb-clone",
+      demo_link: "https://imdb-clone-nextjs-eight.vercel.app/"
     },
   ];
   
