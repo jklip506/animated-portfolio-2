@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Development",
+      title: "SDLC Methodologies",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creation",
+      title: "Problem Solving",
       icon: creator,
     },
   ];
@@ -164,27 +164,17 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Jason exhibited strong technical skills, quickly grasping complex software concepts, and effectively applying them to our projects.",
+      name: "Oscar Fonseca",
+      designation: "Senior Program Manager",
+      company: "National Instruments (NI)",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Jason's ability to blend his existing skills with new technologies showcased not only his versatility but also his commitment to delivering high-quality solutions.",
+      name: "Mike Duffy",
+      designation: "Section Manager",
+      company: "National Instruments (NI)",
     },
   ];
   
