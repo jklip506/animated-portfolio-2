@@ -16,15 +16,16 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+    className='bg-black-200 p-10 rounded-3xl xs:w-[420px] w-full flex flex-col justify-between h-[400px]' // Ensuring full height
   >
-    <p className='text-white font-black text-[48px]'>"</p>
+    <div className='h-[60%]'> {/* Fixed height for testimonial section */}
+      <p className='text-white font-black text-[48px]'>"</p>
+      <p className='text-white tracking-wider text-[18px] overflow-hidden'>{testimonial}</p>
+    </div>
 
-    <div className='mt-1'>
-      <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
-
-      <div className='mt-7 flex justify-between items-center gap-1'>
-        <div className='flex-1 flex flex-col'>
+    <div className='mt-auto'> {/* Push to bottom */}
+      <div className='flex justify-between items-center gap-1'>
+        <div className='flex flex-col'>
           <p className='text-white font-medium text-[16px]'>
             <span className='blue-text-gradient'>@</span> {name}
           </p>
@@ -48,7 +49,7 @@ const Feedbacks = () => {
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
         </motion.div>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap justify justify-evenly gap-7`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
