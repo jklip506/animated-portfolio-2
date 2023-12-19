@@ -20,8 +20,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Jason</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop user interfaces <br className="sm:block hidden" /> and web
-            applications
+            I am a recent CS graduate <br className="sm:block hidden" /> and
+            have a passion for full-stack development.
           </p>
         </div>
       </div>
@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{
-                y: [0, 24, 0]
+                y: [0, 24, 0],
               }}
               transition={{
                 duration: 2,
@@ -40,9 +40,7 @@ const Hero = () => {
                 repeatType: "loop",
               }}
               className="w-3 h-3 rounded-full bg-secondary mb-1"
-            >
-
-            </motion.div>
+            ></motion.div>
           </div>
         </a>
       </div>
